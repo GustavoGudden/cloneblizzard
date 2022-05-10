@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+.jogosdestaque {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+.item {
+  font-weight: 400;
+  width: 250px;
+  height: 350px;
+}
+h2 {
+  color: white;
+}
+p {
+  color: #8a8d95;
+}
+
+.item > img {
+  height: 300px;
+  border-radius: 4px;
+}

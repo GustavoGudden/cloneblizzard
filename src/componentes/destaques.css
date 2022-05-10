@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+.destaque {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  color: white;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.bt {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.bt > button {
+  background-color: #4c6d8f;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 5px;
+  height: 35px;
+  min-width: 45px;
+  margin-left: 15px;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.bt > button:hover {
+  background-color: #289aef;
+}
