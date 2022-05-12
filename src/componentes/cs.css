@@ -1,0 +1,5 @@
+.carousel .control-dots .dot {
+  width: 100px !important;
+  height: 15px !important;
+  border-radius: 5px !important;
+}

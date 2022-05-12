@@ -1,4 +1,5 @@
 import "./destaques.css";
+import Jd from "./jd";
 import JogosDestaque from "./JogosDestaque";
 
 const Destaques = () => {
@@ -15,6 +16,10 @@ const Destaques = () => {
         </div>
       </div>
       <JogosDestaque></JogosDestaque>
+      <div className="titulo_2">
+        <h1>Em Breve</h1>
+      </div>
+      <Jd></Jd>
     </>
   );
 };
